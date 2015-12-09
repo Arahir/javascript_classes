@@ -10,17 +10,14 @@ class Book {
     console.log(this._name);
   }
   set name(name){
-    console.log('set');
     this._name = name;
 
     return this;
   }
   get sold() {
-    console.log(this._sold);
     return this._sold;
   }
   set sold(amount) {
-    console.log('one more sell', amount);
     this._sold = amount;
   }
   incrementSold(){
